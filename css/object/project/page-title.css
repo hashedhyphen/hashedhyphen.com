@@ -6,10 +6,17 @@
 }
 
 .p-page-title > .p-page-title__content {
-  font-size: 3rem;
+  font-size: 10vw;
   font-weight: 300;
   color: var(--color-yotsugi-hair);
   transition: 0.5s color ease-in-out, 0.5s text-shadow ease-in-out;
+}
+
+/* 30rem = 3rem / 10%(vw) */
+@media screen and (min-width: 30rem) {
+  .p-page-title > .p-page-title__content {
+    font-size: 3rem;
+  }
 }
 
 .p-page-title > .p-page-title__content:hover {

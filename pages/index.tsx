@@ -16,14 +16,14 @@ export default () => (
 
       <div className="col-12 p-avatars">
         <div className="row">
-          <div className="col-2 offset-4">
+          <div className="col-4 offset-2 col-sm-3 offset-sm-3 col-md-2 offset-md-4">
             <img
               className="img-fluid rounded-circle"
               src="/static/img/logo.png"
               alt="ロゴ"
             />
           </div>
-          <div className="col-2">
+          <div className="col-4 col-sm-3 col-md-2">
             <img
               className="img-fluid rounded-circle"
               src="/static/img/photo.jpg"
@@ -34,7 +34,7 @@ export default () => (
       </div>
     </header>
     <main className="row main">
-      <section className="col-4 p-category-block">
+      <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
         <div className="row">
           <h1 className="col-12 p-category-block-title">
             <span className="p-category-block-title__content">Aliases</span>
@@ -48,7 +48,7 @@ export default () => (
         </div>
       </section>
 
-      <section className="col-4 p-category-block">
+      <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
         <div className="row">
           <h1 className="col-12 p-category-block-title">
             <span className="p-category-block-title__content">Living as</span>
@@ -64,7 +64,7 @@ export default () => (
         </div>
       </section>
 
-      <section className="col-4 p-category-block">
+      <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
         <div className="row">
           <h1 className="col-12 p-category-block-title">
             <span className="p-category-block-title__content">Skills</span>
@@ -78,7 +78,7 @@ export default () => (
         </div>
       </section>
 
-      <section className="col-4 p-category-block">
+      <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
         <div className="row">
           <h1 className="col-12 p-category-block-title">
             <span className="p-category-block-title__content">Works</span>
@@ -93,7 +93,7 @@ export default () => (
         </div>
       </section>
 
-      <section className="col-4 p-category-block">
+      <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
         <div className="row">
           <h1 className="col-12 p-category-block-title">
             <span className="p-category-block-title__content">Accounts</span>
@@ -118,11 +118,9 @@ export default () => (
 
     <hr />
 
-    <footer className="row footer">
-      <div className="col-4 copyright">
-        Copyright &copy; {copyrightYearRangeLabel()} Ryo Kato
-      </div>
-      <div className="col-4 offset-4 text-right">
+    <footer className="footer">
+      <div>Copyright &copy; {copyrightYearRangeLabel()} Ryo Kato</div>
+      <div>
         <a href="https://github.com/hashedhyphen/hashedhyphen.com">
           GitHub repository for this site
         </a>
