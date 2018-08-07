@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "yarn build:js && yarn build:css",
+    "build:js": "next build",
     "build:css": "postcss css/index.css -o static/css/bundle.css",
     "watch:css": "postcss css/index.css -o static/css/bundle.css -w",
     "start": "next start",
