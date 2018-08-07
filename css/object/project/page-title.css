@@ -1,0 +1,18 @@
+.p-page-title {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-page-title > .p-page-title__content {
+  font-size: 3rem;
+  font-weight: 300;
+  color: var(--color-yotsugi-hair);
+  transition: 0.5s color ease-in-out, 0.5s text-shadow ease-in-out;
+}
+
+.p-page-title > .p-page-title__content:hover {
+  color: var(--color-yotsugi-hat);
+  text-shadow: -0.35rem 0 0 var(--color-yotsugi-hair);
+}

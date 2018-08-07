@@ -14,7 +14,7 @@ export default class extends Document {
             property="og:image"
             content="https://hashedhyphen.com/static/logo.png"
           />
-          <link rel="stylesheet" href="/static/bundle.css" />
+          <link rel="stylesheet" href="/static/css/bundle.css" />
         </Head>
         <body>
           <Main />

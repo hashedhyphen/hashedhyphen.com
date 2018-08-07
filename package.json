@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "build:css": "postcss stylesheets/index.css -o static/bundle.css",
-    "watch:css": "postcss stylesheets/index.css -o static/bundle.css -w",
+    "build:css": "postcss css/index.css -o static/css/bundle.css",
+    "watch:css": "postcss css/index.css -o static/css/bundle.css -w",
     "start": "next start",
     "export": "yarn build && next export"
   },
