@@ -6,6 +6,7 @@ export default class extends Document {
       <html lang="ja" prefix="og: http://ogp.me/ns#">
         <Head>
           <title>hashedhyphen.com</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta property="og:title" content="hashedhyphen.com" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://hashedhyphen.com" />
