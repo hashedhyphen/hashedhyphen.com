@@ -81,9 +81,14 @@ export default () => (
       <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
         <div className="row">
           <h1 className="col-12 p-category-block-title">
-            <span className="p-category-block-title__content">Works</span>
+            <span className="p-category-block-title__content">Posts</span>
           </h1>
           <ul className="col-12 p-category-block-list">
+            <li className="p-category-block-list__item">
+              <a href="https://diary.hashedhyphen.com/">
+                Hashed Diary (non-tech blog)
+              </a>
+            </li>
             <li className="p-category-block-list__item">
               <a href="https://mozsec-jp.hatenablog.jp/">
                 Mozilla Security Blog 日本語版
@@ -100,16 +105,37 @@ export default () => (
           </h1>
           <ul className="col-12 p-category-block-list">
             <li className="p-category-block-list__item">
-              <a href="https://twitter.com/hashedhyphen">Twitter</a>
+              <a href="https://twitter.com/hashedhyphen">
+                <i className="fab fa-twitter" /> Twitter
+              </a>
             </li>
             <li className="p-category-block-list__item">
-              <a href="https://facebook.com/ryo.kato.hh">Facebook</a>
+              <a href="https://facebook.com/ryo.kato.hh">
+                <i className="fab fa-facebook-square" /> Facebook
+              </a>
             </li>
             <li className="p-category-block-list__item">
-              <a href="https://github.com/hashedhyphen">GitHub</a>
+              <a href="https://github.com/hashedhyphen">
+                <i className="fab fa-github" /> GitHub
+              </a>
             </li>
             <li className="p-category-block-list__item">
               <a href="https://speakerdeck.com/hashedhyphen">Speaker Deck</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
+        <div className="row">
+          <h1 className="col-12 p-category-block-title">
+            <span className="p-category-block-title__content">Contacts</span>
+          </h1>
+          <ul className="col-12 p-category-block-list">
+            <li className="p-category-block-list__item">Twitter DM</li>
+            <li className="p-category-block-list__item">Facebook Messanger</li>
+            <li className="p-category-block-list__item">
+              <a href="mail:ryo_kato@hashedhyphen.com">E-mail</a>
             </li>
           </ul>
         </div>
