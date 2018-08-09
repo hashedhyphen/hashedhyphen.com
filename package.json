@@ -11,6 +11,7 @@
     "build:js": "next build",
     "build:css": "postcss css/index.css -o static/css/bundle.css",
     "watch:css": "postcss css/index.css -o static/css/bundle.css -w",
+    "lint:css": "stylelint css/**.css",
     "start": "next start",
     "export": "yarn build && next export"
   },
@@ -28,6 +29,8 @@
     "postcss-import": "12.0.0",
     "postcss-preset-env": "5.3.0",
     "prettier": "1.13.7",
+    "stylelint": "9.4.0",
+    "stylelint-config-recommended": "2.1.0",
     "tslint": "5.11.0",
     "tslint-config-prettier": "1.14.0",
     "typescript": "3.0.1"
