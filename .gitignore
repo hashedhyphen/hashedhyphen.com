@@ -1,5 +1,7 @@
 .DS_Store
 .next
+bundle.tar.gz
 node_modules
 out
+yarn-error.log
 static/bundle.css
