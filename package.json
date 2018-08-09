@@ -10,8 +10,12 @@
     "build": "yarn build:js && yarn build:css",
     "build:js": "next build",
     "build:css": "postcss css/index.css -o static/css/bundle.css",
+    "clean": "rm -rf .next out static/bundle.css",
     "watch:css": "postcss css/index.css -o static/css/bundle.css -w",
+    "lint:ts": "tslint pages/**.tsx",
     "lint:css": "stylelint css/**.css",
+    "test:ts": "tsc -p . --noEmit",
+    "test": "yarn lint:ts && yarn lint:css && yarn test:ts",
     "start": "next start",
     "export": "yarn build && next export"
   },
