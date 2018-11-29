@@ -57,9 +57,6 @@ export default () => (
             <li className="p-category-block-list__item">
               Freelance web developer
             </li>
-            <li className="p-category-block-list__item">
-              Weekend Clarinet player
-            </li>
           </ul>
         </div>
       </section>
