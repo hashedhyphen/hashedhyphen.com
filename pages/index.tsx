@@ -107,6 +107,11 @@ export default () => (
               </a>
             </li>
             <li className="p-category-block-list__item">
+              <a href="https://keybase.io/hashedhyphen">
+                <i className="fab fa-keybase" /> Keybase
+              </a>
+            </li>
+            <li className="p-category-block-list__item">
               <a href="https://facebook.com/ryo.kato.hh">
                 <i className="fab fa-facebook-square" /> Facebook
               </a>
