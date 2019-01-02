@@ -55,7 +55,7 @@ export default () => (
           </h1>
           <ul className="col-12 p-category-block-list">
             <li className="p-category-block-list__item">
-              Freelance web developer
+              Freelance software developer
             </li>
           </ul>
         </div>
