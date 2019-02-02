@@ -28,7 +28,7 @@ export default class extends Document {
           <meta property="og:url" content="https://hashedhyphen.com" />
           <meta
             property="og:image"
-            content="https://hashedhyphen.com/static/logo.png"
+            content="https://hashedhyphen.com/static/img/logo.png"
           />
           <link
             rel="stylesheet"
