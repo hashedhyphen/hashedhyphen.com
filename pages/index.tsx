@@ -147,7 +147,13 @@ export default () => (
     <hr />
 
     <footer className="footer">
-      <div>Copyright &copy; {copyrightYearRangeLabel()} Ryo Kato</div>
+      <div>
+        Copyright &copy; {copyrightYearRangeLabel()} Ryo Kato. All rights
+        reserved. Using{" "}
+        <a href="https://policies.google.com/technologies/partner-sites">
+          Google Analytics
+        </a>.
+      </div>
       <div>
         <a href="https://github.com/hashedhyphen/hashedhyphen.com">
           GitHub repository for this site

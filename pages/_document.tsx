@@ -5,6 +5,22 @@ export default class extends Document {
     return (
       <html lang="ja" prefix="og: http://ogp.me/ns#">
         <Head>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-133672456-1"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-133672456-1');
+          `
+            }}
+          />
+
           <title>hashedhyphen.com</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta property="og:title" content="hashedhyphen.com" />
