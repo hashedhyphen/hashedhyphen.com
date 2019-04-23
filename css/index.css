@@ -4,9 +4,18 @@
 /* foundation */
 @import "foundation/base.css";
 
+/* layout */
+@import "layout/container";
+@import "layout/footer";
+@import "layout/main";
+
 /* object - project */
+@import "object/project/alias-item";
 @import "object/project/avatars";
 @import "object/project/category-block";
 @import "object/project/category-block-list";
 @import "object/project/category-block-title";
+@import "object/project/footer-separator";
+@import "object/project/github-corner";
 @import "object/project/page-title";
+@import "object/project/privacy-policy-title";

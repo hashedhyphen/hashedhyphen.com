@@ -1,3 +1,7 @@
+.p-category-block-list {
+  padding-left: 0.5rem;
+}
+
 .p-category-block-list > .p-category-block-list__item {
   list-style: none;
 }

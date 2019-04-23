@@ -1,5 +1,11 @@
 :root {
+  --color-logo: #00a2e8;
   --color-yotsugi-hair: #40bfbd;
   --color-yotsugi-hat: #f38c59;
+  --color-background: #40bfbd15;
   font-size: 16px;
+}
+
+body {
+  background-color: var(--color-background);
 }

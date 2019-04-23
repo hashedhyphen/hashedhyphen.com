@@ -1,10 +1,15 @@
 .p-category-block-title {
-  margin: 0;
+  padding-left: 0.5rem;
   height: 3rem;
   display: flex;
   align-items: center;
+  background-color: var(--color-yotsugi-hair);
+}
+.p-category-block-title:hover {
+  background-color: var(--color-yotsugi-hat);
 }
 
 .p-category-block-title > .p-category-block-title__content {
   font-size: 1.7rem;
+  color: #fff;
 }

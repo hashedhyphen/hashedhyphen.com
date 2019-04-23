@@ -1,15 +1,11 @@
-const LAUNCHED_YEAR = 2018
+import Link from "next/link"
 
-const copyrightYearRangeLabel: () => string = () => {
-  const thisYear = new Date().getFullYear()
-  return thisYear === LAUNCHED_YEAR
-    ? `${LAUNCHED_YEAR}`
-    : `${LAUNCHED_YEAR}-${thisYear}`
-}
+import GitHubCorner from "../components/GitHubCorner"
 
 export default () => (
-  <div className="container">
-    <header className="row header">
+  <div className="container l-container">
+    <GitHubCorner />
+    <header className="row">
       <h1 className="col-12 p-page-title">
         <span className="p-page-title__content">hashedhyphen.com</span>
       </h1>
@@ -33,132 +29,120 @@ export default () => (
         </div>
       </div>
     </header>
-    <main className="row main">
+    <main className="row l-main">
       <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
-        <div className="row">
-          <h1 className="col-12 p-category-block-title">
-            <span className="p-category-block-title__content">Aliases</span>
-          </h1>
-          <ul className="col-12 p-category-block-list">
-            <li className="p-category-block-list__item">
-              Hash (@hashedhyphen)
-            </li>
-            <li className="p-category-block-list__item">加藤 諒 (KATO Ryo)</li>
-          </ul>
-        </div>
+        <h1 className="p-category-block-title">
+          <span className="p-category-block-title__content">Aliases</span>
+        </h1>
+        <ul className="p-category-block-list">
+          <li className="p-category-block-list__item">
+            <span className="p-alias-item">
+              <span className="p-alias-item__first">Hash</span>
+              <span className="p-alias-item__second">@hashedhyphen</span>
+            </span>
+          </li>
+          <li className="p-category-block-list__item">
+            <span className="p-alias-item">
+              <span className="p-alias-item__first">加藤 諒</span>
+              <span className="p-alias-item__second">KATO Ryo</span>
+            </span>
+          </li>
+        </ul>
       </section>
 
       <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
-        <div className="row">
-          <h1 className="col-12 p-category-block-title">
-            <span className="p-category-block-title__content">Living as</span>
-          </h1>
-          <ul className="col-12 p-category-block-list">
-            <li className="p-category-block-list__item">
-              Freelance software developer
-            </li>
-          </ul>
-        </div>
+        <h1 className="p-category-block-title">
+          <span className="p-category-block-title__content">Living as</span>
+        </h1>
+        <ul className="p-category-block-list">
+          <li className="p-category-block-list__item">
+            Freelance web developer
+          </li>
+        </ul>
       </section>
 
       <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
-        <div className="row">
-          <h1 className="col-12 p-category-block-title">
-            <span className="p-category-block-title__content">Skills</span>
-          </h1>
-          <ul className="col-12 p-category-block-list">
-            <li className="p-category-block-list__item">ECMAScript</li>
-            <li className="p-category-block-list__item">React</li>
-            <li className="p-category-block-list__item">Ruby</li>
-            <li className="p-category-block-list__item">Rails</li>
-          </ul>
-        </div>
+        <h1 className="p-category-block-title">
+          <span className="p-category-block-title__content">Skills</span>
+        </h1>
+        <ul className="p-category-block-list">
+          <li className="p-category-block-list__item">ECMAScript, React</li>
+          <li className="p-category-block-list__item">Ruby, Rails</li>
+          <li className="p-category-block-list__item">Golang</li>
+        </ul>
       </section>
 
       <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
-        <div className="row">
-          <h1 className="col-12 p-category-block-title">
-            <span className="p-category-block-title__content">Posts</span>
-          </h1>
-          <ul className="col-12 p-category-block-list">
-            <li className="p-category-block-list__item">
-              <a href="https://diary.hashedhyphen.com/">
-                Hashed Diary (non-tech blog)
-              </a>
-            </li>
-            <li className="p-category-block-list__item">
-              <a href="https://mozsec-jp.hatenablog.jp/">
-                Mozilla Security Blog 日本語版
-              </a>
-            </li>
-          </ul>
-        </div>
+        <h1 className="p-category-block-title">
+          <span className="p-category-block-title__content">Posts</span>
+        </h1>
+        <ul className="p-category-block-list">
+          <li className="p-category-block-list__item">
+            <a href="https://diary.hashedhyphen.com/">
+              Hashed Diary (non-tech blog)
+            </a>
+          </li>
+          <li className="p-category-block-list__item">
+            <a href="https://mozsec-jp.hatenablog.jp/">
+              Mozilla Security Blog 日本語版
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
-        <div className="row">
-          <h1 className="col-12 p-category-block-title">
-            <span className="p-category-block-title__content">Accounts</span>
-          </h1>
-          <ul className="col-12 p-category-block-list">
-            <li className="p-category-block-list__item">
-              <a href="https://twitter.com/hashedhyphen">
-                <i className="fab fa-twitter" /> Twitter
-              </a>
-            </li>
-            <li className="p-category-block-list__item">
-              <a href="https://keybase.io/hashedhyphen">
-                <i className="fab fa-keybase" /> Keybase
-              </a>
-            </li>
-            <li className="p-category-block-list__item">
-              <a href="https://facebook.com/ryo.kato.hh">
-                <i className="fab fa-facebook-square" /> Facebook
-              </a>
-            </li>
-            <li className="p-category-block-list__item">
-              <a href="https://github.com/hashedhyphen">
-                <i className="fab fa-github" /> GitHub
-              </a>
-            </li>
-            <li className="p-category-block-list__item">
-              <a href="https://speakerdeck.com/hashedhyphen">Speaker Deck</a>
-            </li>
-          </ul>
-        </div>
+        <h1 className="p-category-block-title">
+          <span className="p-category-block-title__content">Accounts</span>
+        </h1>
+        <ul className="p-category-block-list">
+          <li className="p-category-block-list__item">
+            <a href="https://twitter.com/hashedhyphen">
+              <i className="fab fa-twitter" /> Twitter
+            </a>
+          </li>
+          <li className="p-category-block-list__item">
+            <a href="https://keybase.io/hashedhyphen">
+              <i className="fab fa-keybase" /> Keybase
+            </a>
+          </li>
+          <li className="p-category-block-list__item">
+            <a href="https://facebook.com/ryo.kato.hh">
+              <i className="fab fa-facebook-square" /> Facebook
+            </a>
+          </li>
+          <li className="p-category-block-list__item">
+            <a href="https://github.com/hashedhyphen">
+              <i className="fab fa-github" /> GitHub
+            </a>
+          </li>
+          <li className="p-category-block-list__item">
+            <a href="https://speakerdeck.com/hashedhyphen">
+              <i className="fab fa-speaker-deck" /> Speaker Deck
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section className="col-12 col-ms-12 col-md-6 col-lg-4 p-category-block">
-        <div className="row">
-          <h1 className="col-12 p-category-block-title">
-            <span className="p-category-block-title__content">Contacts</span>
-          </h1>
-          <ul className="col-12 p-category-block-list">
-            <li className="p-category-block-list__item">Twitter DM</li>
-            <li className="p-category-block-list__item">Facebook Messanger</li>
-            <li className="p-category-block-list__item">
-              <a href="mail:ryo_kato@hashedhyphen.com">E-mail</a>
-            </li>
-          </ul>
-        </div>
+        <h1 className="p-category-block-title">
+          <span className="p-category-block-title__content">Contacts</span>
+        </h1>
+        <ul className="p-category-block-list">
+          <li className="p-category-block-list__item">Twitter DM</li>
+          <li className="p-category-block-list__item">Facebook Messanger</li>
+          <li className="p-category-block-list__item">
+            <a href="mail:ryo_kato@hashedhyphen.com">E-mail</a>
+          </li>
+        </ul>
       </section>
     </main>
 
-    <hr />
-
-    <footer className="footer">
-      <div>
-        Copyright &copy; {copyrightYearRangeLabel()} Ryo Kato. All rights
-        reserved. Using{" "}
-        <a href="https://policies.google.com/technologies/partner-sites">
-          Google Analytics
-        </a>.
-      </div>
-      <div>
-        <a href="https://github.com/hashedhyphen/hashedhyphen.com">
-          GitHub repository for this site
-        </a>
-      </div>
+    <footer className="l-footer">
+      <span>&copy; 2018 Ryo Kato</span>
+      <span className="rounded-circle p-footer-separator" />
+      <Link href="/privacy_policy">
+        <a>Privacy Policy</a>
+      </Link>
     </footer>
   </div>
 )

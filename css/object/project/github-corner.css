@@ -1,0 +1,10 @@
+.github-corner > svg {
+  top: unset !important;
+  bottom: 0 !important;
+  fill: var(--color-yotsugi-hair) !important;
+  transform: scale(1, -1);
+}
+
+.github-corner:hover > svg {
+  fill: var(--color-yotsugi-hat) !important;
+}
