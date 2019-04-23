@@ -17,7 +17,6 @@ export default class extends Document {
             }}
           />
 
-          <title>hashedhyphen.com</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta property="og:title" content="hashedhyphen.com" />
           <meta property="og:type" content="website" />

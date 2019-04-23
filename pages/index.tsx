@@ -1,10 +1,14 @@
+import Head from "next/head"
 import Link from "next/link"
 
 import GitHubCorner from "../components/GitHubCorner"
 
 export default () => (
   <div className="container l-container">
-    <GitHubCorner />
+    <Head>
+      <title>hashedhyphen.com</title>
+    </Head>
+
     <header className="row">
       <h1 className="col-12 p-page-title">
         <span className="p-page-title__content">hashedhyphen.com</span>
@@ -144,5 +148,7 @@ export default () => (
         <a>Privacy Policy</a>
       </Link>
     </footer>
+
+    <GitHubCorner />
   </div>
 )
