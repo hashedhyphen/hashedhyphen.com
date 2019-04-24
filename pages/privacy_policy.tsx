@@ -30,7 +30,7 @@ export default () => (
         </a>
         を参照してください。
       </p>
-      <Link href="/index">
+      <Link href="/">
         <a>トップページに戻る</a>
       </Link>
     </main>
