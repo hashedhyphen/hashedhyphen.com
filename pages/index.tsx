@@ -101,27 +101,27 @@ export default () => (
         <ul className="p-category-block-list">
           <li className="p-category-block-list__item">
             <a href="https://twitter.com/hashedhyphen">
-              <i className="fab fa-twitter" /> Twitter
+              <i className="c-icon fab fa-twitter" /> Twitter
             </a>
           </li>
           <li className="p-category-block-list__item">
             <a href="https://keybase.io/hashedhyphen">
-              <i className="fab fa-keybase" /> Keybase
+              <i className="c-icon fab fa-keybase" /> Keybase
             </a>
           </li>
           <li className="p-category-block-list__item">
             <a href="https://facebook.com/ryo.kato.hh">
-              <i className="fab fa-facebook-square" /> Facebook
+              <i className="c-icon fab fa-facebook-square" /> Facebook
             </a>
           </li>
           <li className="p-category-block-list__item">
             <a href="https://github.com/hashedhyphen">
-              <i className="fab fa-github" /> GitHub
+              <i className="c-icon fab fa-github" /> GitHub
             </a>
           </li>
           <li className="p-category-block-list__item">
             <a href="https://speakerdeck.com/hashedhyphen">
-              <i className="fab fa-speaker-deck" /> Speaker Deck
+              <i className="c-icon fab fa-speaker-deck" /> Speaker Deck
             </a>
           </li>
         </ul>
@@ -132,10 +132,21 @@ export default () => (
           <span className="p-category-block-title__content">Contacts</span>
         </h1>
         <ul className="p-category-block-list">
-          <li className="p-category-block-list__item">Twitter DM</li>
-          <li className="p-category-block-list__item">Facebook Messanger</li>
           <li className="p-category-block-list__item">
-            <a href="mail:ryo_kato@hashedhyphen.com">E-mail</a>
+            <a href="https://twitter.com/messages/compose?recipient_id=3322540525">
+              <i className="c-icon fab fa-twitter" /> Twitter DM
+            </a>
+          </li>
+          <li className="p-category-block-list__item">
+            <a href="https://m.me/ryo.kato.hh">
+              <i className="c-icon fab fa-facebook-messenger" /> Facebook
+              Messanger
+            </a>
+          </li>
+          <li className="p-category-block-list__item">
+            <a href="mailto:ryo_kato@hashedhyphen.com">
+              <i className="c-icon far fa-paper-plane" /> E-mail
+            </a>
           </li>
         </ul>
       </section>

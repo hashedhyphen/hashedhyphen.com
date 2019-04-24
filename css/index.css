@@ -10,6 +10,9 @@
 @import "layout/main";
 
 /* object - project */
+@import "object/component/icon";
+
+/* object - project */
 @import "object/project/alias-item";
 @import "object/project/avatars";
 @import "object/project/category-block";
