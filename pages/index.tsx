@@ -60,7 +60,7 @@ export default () => (
         </h1>
         <ul className="p-category-block-list">
           <li className="p-category-block-list__item">
-            Freelance web developer
+            Web developer
           </li>
         </ul>
       </section>
@@ -71,8 +71,9 @@ export default () => (
         </h1>
         <ul className="p-category-block-list">
           <li className="p-category-block-list__item">ECMAScript, React</li>
+          <li className="p-category-block-list__item">Go</li>
+          <li className="p-category-block-list__item">Kubernetes</li>
           <li className="p-category-block-list__item">Ruby, Rails</li>
-          <li className="p-category-block-list__item">Golang</li>
         </ul>
       </section>
 
@@ -144,7 +145,7 @@ export default () => (
             </a>
           </li>
           <li className="p-category-block-list__item">
-            <a href="mailto:ryo_kato@hashedhyphen.com">
+            <a href="mailto:me@hashedhyphen.com">
               <i className="c-icon far fa-paper-plane" /> E-mail
             </a>
           </li>
