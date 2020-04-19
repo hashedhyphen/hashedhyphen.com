@@ -761,7 +761,7 @@
     "@types/react" "*"
     "@types/react-loadable" "*"
 
-"@types/next@^8.0.4":
+"@types/next@8.0.4":
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/@types/next/-/next-8.0.4.tgz#d5c693d95ac26c448ffa16778b6ae65b0feb5c59"
   integrity sha512-pe28hzhDcQ//X2Le3LRYXPWxXE4WkGqPfkzeJfl27XE5Te4lB0ZMJFPStjpq0sBNINTRoj/2wNOmt3JS4+Lz1w==
@@ -971,7 +971,7 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.1.tgz#5c85d662f76fa1d34575766c5dcd6615abcd30d8"
   integrity sha512-FZdkNBDqBRHKQ2MEbSC17xnPFOhZxeJ2YGSfr2BKf3sujG49Qe3bB+rGCwQfIaA7WHnGeGkSijX4FuBCdrzW/g==
 
-"@zeit/next-typescript@^1.1.1":
+"@zeit/next-typescript@1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@zeit/next-typescript/-/next-typescript-1.1.1.tgz#0b0ddfbb13ca04cde52ac2718473f1b9c40ba0ee"
   integrity sha512-EUcHCASftz1Bc80djkf3cKJrFgvFQyODOH1kty7ShVLLdXMaZpRLj+z7RxrCoNo1bP06w0vtXEDU0cKa0HmGgg==
@@ -1357,7 +1357,7 @@ bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
 
-bootstrap@^4.3.1:
+bootstrap@4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
   integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
@@ -3300,14 +3300,10 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "~3.0.0"
 
-lodash@^4.17.10, lodash@^4.17.4:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-
-lodash@^4.17.11, lodash@^4.17.5:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 log-symbols@^2.0.0:
   version "2.2.0"
@@ -3647,7 +3643,7 @@ next-server@8.1.0:
     send "0.16.1"
     url "0.11.0"
 
-next@^8.1.0:
+next@8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/next/-/next-8.1.0.tgz#2a996dcd611f9e16920841c615e8bd6e5ada6e1c"
   integrity sha512-NRlL+FNSeHXkDSi8hFoBWghXFJrjHTCXyH6T/EFR1HJiGo2xR3xBPhsb7W+GvIIGIxHRTCDq+lyQLYvPirH84g==
@@ -4684,7 +4680,7 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.8.6:
+react-dom@16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -4711,7 +4707,7 @@ react-ssr-prepass@1.0.2:
   dependencies:
     object-is "^1.0.1"
 
-react@^16.8.6:
+react@16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
