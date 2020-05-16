@@ -83,13 +83,13 @@ export default () => (
         </h1>
         <ul className="p-category-block-list">
           <li className="p-category-block-list__item">
-            <a href="https://diary.hashedhyphen.com/">
-              Hashed Diary (non-tech blog)
+            <a href="https://blog.hashedhyphen.com/">
+              Hashed Blog (tech blog)
             </a>
           </li>
           <li className="p-category-block-list__item">
-            <a href="https://mozsec-jp.hatenablog.jp/">
-              Mozilla Security Blog 日本語版
+            <a href="https://diary.hashedhyphen.com/">
+              Hashed Diary (non-tech blog)
             </a>
           </li>
         </ul>
